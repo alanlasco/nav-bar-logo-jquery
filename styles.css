@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+}
+/*#logo-h {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    font-family: sans-serif, Lato;
+    font-weight: bold;
+    padding: 5px;
+}*/
+.side-menu{
+    display: none;
+}
+.nav-bar{
+    display: none;
+}
+.nav-bar-h {
+    position: relative;
+    margin:0 auto;
+    height: 55px;
+    width: 100%;
+    background: pink;
+}
+
+.nav-bar-h .items-h{
+    margin: 0; 
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-bar-h .items-h li{
+    float: none;
+    display: inline-block;
+
+}
+.nav-bar-h .items-h li:nth-child(1) {
+    float: left;
+
+}
+.nav-bar-h .items-h li:nth-child(2) {
+    float: left;
+
+}
+.nav-bar-h .items-h li:nth-child(3) {
+    float: left;
+
+}
+.nav-bar-h .items-h li:nth-child(4) {
+    float: left;
+
+}
+.nav-bar-h ul li a {
+    font-size: 18px;
+    display: block;
+    padding:15px 20px 19px 15px;
+    color: black;
+    font-weight: bold;
+}
+.nav-bar-h ul li a:hover {
+    background: grey;
+}
+
+#logo-h{
+    padding: 15px 0px 19px 0px;
+    font-size: 30px;
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    left:50%;
+    top:0;
+    content: "";
+    margin-left:-120px;/*aca se usa la mitad de width para que se centre */
+}
+
+
+
+@media (max-width:768px) {
+        .nav-bar-h{
+            display:none;
+        }
+        #logo {
+            float: left;
+            height: 40px;
+            width: 40px;
+            font-size: 30px;
+            font-family: sans-serif, Lato;
+            font-weight: bold;
+            padding: 5px;
+        }
+    
+        .side-menu {
+            display: block;
+            width: 100%;
+            height: 50px;
+            background: pink;
+        }
+    
+        #boton {
+            margin-right: 2px;
+            margin-top: 2px;
+            float: right;
+            height: 40px;
+            width: 40px;
+    
+        }
+        .nav-bar {
+            display: none;
+            height: 400px;
+            width: 400px;
+            background: pink;
+        }
+    
+    
+        .nav-bar .items {
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+    
+        }
+    
+        .nav-bar .socials {
+            display: flex;
+            flex-direction: row;
+            font-size: 15px;
+        }
+    
+        .nav-bar .socials li {
+            list-style: none;
+            height: 25px;
+            padding: 25px;
+            margin-right: 15px;
+        }
+    
+        .nav-bar .socials li a {
+            color: black;
+            width: 100%;
+        }
+    
+        .nav-bar .items li {
+            list-style: none;
+            height: 30px;
+            padding: 25px;
+        }
+    
+        .nav-bar .items li a {
+            color: black;
+    
+        }
+    
+        .nav-bar ul li:hover {
+            background: grey;
+        }
+
+
+}
